@@ -1,0 +1,261 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ /*red: bf0a00;*/
+
+h1, h2, h3{
+    font-family: 'Vast Shadow', cursive;
+}
+html,body {
+    font-family: 'Caudex', serif;
+}
+body {
+    overflow-x: hidden;
+    background-color: transparent;
+}
+ul{
+    list-style-type: none;
+}
+
+#circle {
+    background: #bf0a00;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin:200px auto;
+}
+
+#circle p{
+    text-align: center;
+    padding-top:100px;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 32px;
+}
+
+.nav-side-menu {
+    z-index: 100;
+}
+.menu-content{
+    padding-left: 20px;
+}
+.menu-list{
+    padding-top:15px;
+}
+
+body#index a#indexnav,
+body#about a#aboutnav,
+body#exhibit a#exhibitnav,
+body#gallery a#gallerynav,
+body#visit a#visitnav,
+body#contact a#contactnav{ 
+    color: #bf0a00;
+}
+
+div._gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div._gallery:hover {
+    border: 1px solid #777;
+}
+
+div._gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-side-menu {
+  overflow: auto;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: black;
+  opacity: .9;
+  position: fixed;
+  top: 0px;
+  width: 320px;
+  height: 100%;
+ 
+}
+
+.nav-side-menu li {
+    text-indent: 20px;
+    line-height: 40px;
+    display: inline;
+}
+
+
+.nav-side-menu li a {
+   position:relative;
+   z-index: 1;
+    text-decoration: none;
+    color: #d8d8d8;
+    cursor: pointer;
+    opacity: 1.0;
+    padding-right: 20px;
+}
+
+.nav-side-menu li a:hover {
+    text-decoration: none;
+    color: #bf0a00;
+    opacity: 1.0;
+    /*background: rgba(255,255,255,0.2);*/
+}
+
+.nav-side-menu li a:active,
+.nav-side-menu li a:focus {
+    text-decoration: none;
+    color: #bf0a00;
+    opacity: 1.0;
+}
+
+em {
+    font-size: 40px;
+   /* font-weight: bolder;*/
+    line-height: 40px;
+    text-align: left;
+    font-style:normal;
+    font-family: 'Vast Shadow', cursive;
+}
+.nav-side-menu > .sidebar-brand {
+    font-size: 18px;
+    line-height: 30px;
+    padding:10px;
+    padding-top:20px;
+    text-indent: 0;
+    text-align: right;
+}
+
+.sidebar-brand a{
+    color:#d8d8d8;
+    opacity: 1.0;
+}
+
+.sidebar-brand a:hover{
+    color: #bf0a00;
+    opacity: 1.0;
+    text-decoration: none;
+
+}
+
+/*.nav-side-menu .menu-list{
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}*/
+
+.nav-side-menu{
+    background-color:black;
+    opacity:0.8;
+}
+
+.menu-list > a {
+    color: #d8d8d8;
+}
+
+.menu-list > a:hover {
+    color: #bf0a00;
+    background: none;
+}
+
+.nav-side-menu .toggle-btn {
+  display: none;
+}
+
+
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid .content-section{
+    position:relative;
+    padding:0px;
+}
+.background {
+    background-color:white;
+    color:black;
+    opacity:0.9;
+    margin:15px;
+    margin-right:30px;
+}
+
+#photo-gallery{
+    opacity: 1.0;
+}
+
+.col-md-12 > p {
+    padding-right:10px;
+}
+
+/*gallery*/
+#photo-gallery{
+    padding-top: 10px;
+}
+@media (max-width: 767px) {
+  .nav-side-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    background-color: black;
+    color:#d8d8d8;
+    width: 60px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 30px !important;
+    color:black;
+    opacity: 0.9;
+  }
+
+  .content-section{
+    margin:15px;
+  }
+}
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+  #main {
+    width:calc(100% - 300px);
+    float: right;
+  }
+
+}
+@media screen and (min-width: 767px) {
+  .container-fluid .content-section {
+    padding: 0 0 0 320px;
+    display: block;
+}
+.nav-side-menu > .sidebar-brand {
+    
+    padding-top:70px;
+}
+.nav-side-menu li a{
+    display:block;
+   
+}
+
+}
